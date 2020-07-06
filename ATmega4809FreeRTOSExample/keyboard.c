@@ -38,10 +38,10 @@ typedef struct {
 
 /* Private Data */
 static key_t keys[] = {
-    {.port = &PORTB, .pin = 2},
-    {.port = &PORTE, .pin = 2},
-    {.port = &PORTD, .pin = 6},
-    {.port = &PORTD, .pin = 7},
+    {.port = &PORTF, .pin = 6},
+    {.port = &PORTC, .pin = 2},
+    {.port = &PORTD, .pin = 1},
+    {.port = &PORTD, .pin = 2},
 };
 static const uint8_t num_keys = sizeof(keys) / sizeof(key_t);
 

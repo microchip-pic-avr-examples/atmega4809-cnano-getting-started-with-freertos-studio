@@ -35,10 +35,10 @@ typedef struct {
 
 /* Private Data */
 static const led_t LEDs[] = {
-    {.port = &PORTB, .pin = PIN5_bm},
-    {.port = &PORTF, .pin = PIN4_bm},
     {.port = &PORTF, .pin = PIN5_bm},
-    {.port = &PORTD, .pin = PIN1_bm},
+    {.port = &PORTD, .pin = PIN4_bm},
+    {.port = &PORTD, .pin = PIN5_bm},
+    {.port = &PORTC, .pin = PIN5_bm},
 };
 static const uint8_t num_LEDs = sizeof(LEDs) / sizeof(led_t);
 
