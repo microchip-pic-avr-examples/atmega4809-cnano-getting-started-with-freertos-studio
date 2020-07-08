@@ -4,18 +4,17 @@
 
 # ATmega4809 Curiosity Nano Getting Started With FreeRTOS™
 
-This is an example of how to get started with FreeRTOS™ on the AVR architecture with ATmega4809 Curiosity Nano. FreeRTOS™ is a real-time operative system kernel which allows the MCU to operate with different tasks simultaneously. This is accomplished with mutexes, semaphores and software timers. [AN3007](#Related-Documentation) describes in detail how the 
+This is an example of how to get started with FreeRTOS™ on the AVR architecture with ATmega4809 Curiosity Nano. FreeRTOS™ is a real-time operative system kernel which allows the MCU to operate with different tasks simultaneously. This is accomplished with mutexes, semaphores and software timers. [AN3007](#Related-Documentation) describes in detail how the FreeRTOS™ is being used to control the AVR.
 
 ## Related Documentation
 
 - [AN3007 - Getting Started with FreeRTOS on megaAVR® 0-series](https://www.microchip.com/wwwAppNotes/AppNotes.aspx?appnote=en610121)
-- [ATmega4809 Product Page](https://www.microchip.com/wwwproducts/en/ATMEGA4809)
-- [ATmega4809 Family Product Page](https://www.microchip.com/design-centers/8-bit/avr-mcus/device-selection/atmega4809)
+- [ATmega4809 Device Page](https://www.microchip.com/wwwproducts/en/ATMEGA4809)
 - [FreeRTOS™ Homepage](https://www.freertos.org/index.html)
 
 ## Software Used
 
-- [Atmel Studio 7.0 or later](https://www.microchip.com/mplab/avr-support/atmel-studio-7)
+- [Atmel Studio 7.0.2397 or later](https://www.microchip.com/mplab/avr-support/atmel-studio-7)
 - ATmega_DFP 1.4.351 or later
 
 ## Hardware Used
@@ -31,9 +30,10 @@ This is an example of how to get started with FreeRTOS™ on the AVR architectur
 
 ## Operation
 
-1. Open `ATmega4809FreeRTOSExample.atsln` in Atmel Studio
-2. In your menu bar in Atmel Studio go to `Debug->Start Without Debugging` or press `CTRL + ALT + F5`
-3. Open data visualizer under `Tools->Data Visualizer` to interact with the virtual comport on the devkit
+1. Download the zip file or clone the example to get the source code
+2. Open `ATmega4809FreeRTOSExample.atsln` in Atmel Studio
+3. In your menu bar in Atmel Studio go to `Debug->Start Without Debugging` or press `CTRL + ALT + F5`
+4. Open data visualizer under `Tools->Data Visualizer` to interact with the virtual comport on the devkit
 
 ## Conclusion
 
