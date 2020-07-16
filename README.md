@@ -19,7 +19,7 @@ This is an example of how to get started with FreeRTOS™ on the AVR architectur
     - [MPLAB Data Visualizer](https://gallery.microchip.com/packages/MPLAB-Data-Visualizer-Standalone(Windows)/)
     - [Studio Data visualizer](https://www.microchip.com/mplab/avr-support/data-visualizer)
 - ATmega_DFP 1.4.351 or later
-- AVR/GNU C Compiler 5.4.0 (buildt into studio)
+- AVR/GNU C Compiler 5.4.0 (built into studio)
 
 ## Hardware Used
 
@@ -33,10 +33,10 @@ This is an example of how to get started with FreeRTOS™ on the AVR architectur
 
 ## Operation
 
-1. Download the zip file or clone the example to get the source code
-2. Open `ATmega4809FreeRTOSExample.atsln` in Atmel Studio
+1. Download the zip file or clone the example to get the source code.
+2. Open `ATmega4809FreeRTOSExample.atsln` in Atmel Studio.
 3. Connect the ATmega4809 Curiosity Nano with the Curiosity Nano Base to your computer with a micro usb cable.
-4. In your menu bar in Atmel Studio go to `Debug->Start Without Debugging` or press `CTRL + ALT + F5`
+4. In your menu bar in Atmel Studio go to `Debug->Start Without Debugging` or press `CTRL + ALT + F5`.
 5. Open your favorite terminal application or Data visualizer and open the serial port associated with the cnano.
 
 ## Conclusion
